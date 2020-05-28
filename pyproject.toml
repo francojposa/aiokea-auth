@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "aiokea-auth"
+description = ""
+authors = ["francojposa <franco@francoposa.io>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+aiokea = {git = "https://github.com/francojposa/aiokea.git"}
+attrs = "^19.3.0"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+pytest = "^5.4.2"
+pytest-aiohttp = "^0.3.0"
+alembic = "^1.4.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
